@@ -4,5 +4,7 @@ WORKDIR /opt
 RUN apt update -y && apt install -y git neofetch libzbar-dev python3-pip && git clone https://github.com/TeamPGM/PagerMaid-Pyro.git PagerMaid
 WORKDIR /opt/PagerMaid
 RUN pip3 install -r requirements.txt
-RUN python3 -m pagermaid
+COPY pagermaid.session ./
+COPY config.yml ./
+EXPOSE 2288
 CMD ["python3", "-m", "pagermaid"]
