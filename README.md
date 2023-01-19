@@ -7,6 +7,6 @@
 `python3 gensession.py` 
 注：请注意保护session文件安全，通过此文件可以对Telegram账号执行任何操作
 4.有两种方法 
-1)本地构建Docker镜像并Push到容器托管  
-2)创建Github私有仓库，通过容器绑定Github进行部署   
+  1)本地构建Docker镜像并Push到容器托管  
+  2)创建Github私有仓库，通过容器绑定Github进行部署   
 5.Enjoy
