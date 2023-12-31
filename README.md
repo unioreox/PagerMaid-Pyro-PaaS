@@ -13,3 +13,5 @@
 &emsp;&emsp;2)创建Github私有仓库，通过容器绑定Github进行部署  
   
 5.Enjoy
+
+注：配置文件中PGM的WEB默认开启，端口2288，密码UniOreoX-PagerMaid，出于安全性考虑，请自行更改密码或关闭面板
